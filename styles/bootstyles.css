@@ -1,0 +1,57 @@
+body{
+    background-color:lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common{
+    background-color: lightgray;
+    border: white 2px;
+    position: absolute;
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    padding: 10px;
+}
+
+.main{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;
+    padding: 5px;
+    position:absolute;
+}
+
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px;
+    position: fixed;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.subheader{
+    float: right;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.align{
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    width: 50%;
+  }
+.caption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
